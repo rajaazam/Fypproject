@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236491786666",
+    "project_id": "skardubazar-abfd1",
+    "storage_bucket": "skardubazar-abfd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236491786666:android:d5c14427f5f179400703d3",
+        "android_client_info": {
+          "package_name": "com.example.skbazar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm5Gja-C3nAZL5QY1e7QfCtf9IDfwXpv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
