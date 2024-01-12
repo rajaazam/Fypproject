@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:skbazar/auth/phone_login.dart';
 import 'package:skbazar/auth/signup_Screen.dart';
+import 'package:skbazar/home_Screen.dart';
 import 'package:skbazar/round_button.dart';
 import 'package:skbazar/screens/post_scree.dart';
 import 'package:skbazar/utils/utils.dart';
@@ -39,7 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
         .then((value) {
       utils().toastMessage(value.user!.email.toString());
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => PostScreen()));
+          context, MaterialPageRoute(builder: (context) => HomeScreen()));
       setState(() {
         loading = false;
       });
